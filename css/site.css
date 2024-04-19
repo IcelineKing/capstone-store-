@@ -50,17 +50,20 @@
     background-color:rgba(255, 0, 136, 0.153);
     color: rgba(116, 49, 49, 0.781);
     border: 2px solid rgba(255, 0, 115, 0.211);
+    border-radius: 20px;
 }
 
-.cart .body .cart {
+.totalrow {
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column-reverse;
 }
 
-/* .name .checkout {
-    display: flex;
-    flex-direction: row;
-} */
+.overalltotalcol {
+    align-items: flex-start;
+}
+
+
 
 
