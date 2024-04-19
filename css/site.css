@@ -46,7 +46,19 @@
     border-radius: 25px;
 }
 
-/* .checkoutcolumn {
+.cart {
+    background-color:rgba(255, 0, 136, 0.153);
+    color: rgba(116, 49, 49, 0.781);
+    border: 2px solid rgba(255, 0, 115, 0.211);
+}
+
+.cart .body .cart {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* .name .checkout {
     display: flex;
     flex-direction: row;
 } */
